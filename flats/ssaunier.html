@@ -6,18 +6,18 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Middleman - About</title>
-    <link href="stylesheets/application-481dcd86.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <title></title>
+    <link href="../stylesheets/application-481dcd86.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
 
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" alt="logo" />
-    <!-- <img src="images/logo-acc9c0ec.png" alt="logo"> -->
+    <img src="../images/logo-acc9c0ec.png" alt="logo" />
+    <!-- <img src="images/logo.png" alt="logo"> -->
   </a>
 
   <!-- Right Navigation -->
@@ -57,26 +57,78 @@
   </div>
 </div>
 
-    <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/ssaunier" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="img-circle" alt="Ssaunier" />
-</a>          <h2>Sébastien Saunier</h2>
-          <p>
-<a href="https://github.com/ssaunier" target="_blank">              <i class="fa fa-github"></i> ssaunier
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/Papillard" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/Papillard" class="img-circle" alt="Papillard" />
-</a>          <h2>Boris Paillard</h2>
-          <p>
-<a href="https://github.com/Papillard" target="_blank">              <i class="fa fa-github"></i> Papillard
-</a>          </p>
-        </li>
-    </ul>
+    <!-- source/flats/show.html.erb -->
+
+<!-- Access data.flats with owner's name as key -->
+
+<div class="wrapper">
+  <img src="https://kitt.lewagon.com/placeholder/cities/paris" width="100%" height="300px" alt="Paris" />
+</div>
+<!-- Inject flat data in template -->
+
+<div class="wrapper-white profile_wrapper row">
+
+  <div class="profile_info col-xs-12 col-md-4">
+    <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="img-circle" width="150px" alt="Ssaunier" />
+    <p>Sebastien</p>
   </div>
+
+  <div class="profile_description col-xs-12 col-md-4">
+    <h4>Charming room in Montmartre</h4>
+    <p>Paris, France</p>
+
+    <i class="fa fa-star star"></i>
+    <i class="fa fa-star star"></i>
+    <i class="fa fa-star star"></i>
+    <i class="fa fa-star star"></i>
+  </div>
+
+  <div class="form col-xs-12 col-md-4">
+    <form class="form">
+      <div class="form-group">
+        <p>Book this flat</p>
+        <label for="checkin">checkin</label>
+        <input type="date" class="form-control" id="checkin" placeholder="checkin">
+      </div>
+      <div class="form-group">
+        <label for="checkout">checkout</label>
+        <input type="date" class="form-control" id="checkout" placeholder="checkout">
+      </div>
+      <div class="form-group">
+        <label for="guest">number of guests</label>
+        <select class="form-control" id="guest">
+          <option>1 guest</option>
+          <option>2 guests</option>
+          <option>3 guests</option>
+        </select>
+      </div>
+    </form>
+  </div>
+
+</div>
+
+<div class="wrapper-gray container">
+  <h3>About this flat</h3>
+  
+
+
+  <div class="space">
+    <p>The Space</p>
+    <div class="info">
+      <p> Accommodates:  </p>
+      <p> Bathrooms:  </p>
+      <p> Bed type:  </p>
+      <p> Bedrooms:  </p>
+    </div>
+    <div class="info">
+      <p> Beds: </p>
+      <p> Property type: </p>
+      <p> Room type: </p>
+    </div>
+
+
+  </div>
+
 </div>
 
     <div class="footer">
