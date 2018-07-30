@@ -1,0 +1,42 @@
+.space {
+  display: flex;
+}
+
+.info {
+  padding: 50px;
+}
+
+.wrapper-gray {
+  background-color: $light-gray;
+}
+
+.wrapper-white{
+  background-color: white;
+}
+
+.profile_wrapper {
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.profile_info {
+  text-align: center;
+}
+
+.star {
+  color: $yellow;
+}
+
+.space {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.form {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  background-color: #F4F4F4;
+}
+
